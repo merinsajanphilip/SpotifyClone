@@ -1,0 +1,153 @@
+body{
+    background-color: #121212;
+    margin: 0%;
+    border: 0;
+}
+.sidebar{
+    position: fixed;
+    width: 10%;
+    height: 100%;
+    background-color: black;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding: 2%;
+}
+.sidebar .logo img{
+    width: 90%;
+    
+    
+}
+.sidebar .nav ul{
+    list-style: none;
+    margin-top: 20px;
+}
+.sidebar .nav ul li {
+      padding: 4px 0px;
+}
+.sidebar .nav ul li a {
+   color: #b3b3b3;
+   text-decoration: none;
+   font-weight: bold;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 13px;
+}
+.sidebar .nav ul li a:hover,
+.sidebar .nav ul li a:active,
+.sidebar .nav ul li a:focus{
+    color: white;
+}
+.sidebar .policy {
+margin-top: 350px;
+}
+.sidebar .policy ul{
+    list-style: none;
+}
+.sidebar .policy ul li{
+    padding-bottom: 5px;
+}
+.sidebar .policy ul li a{
+    font-size: 14px;
+}
+.slidebar .lang {
+    border-radius: 50px;
+}
+.main {
+    margin-left: 245px;
+    margin-bottom: 100px;
+  }
+  
+  .topbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #100f0f;
+    padding: 14px 30px;
+    margin-left: -30px;
+    margin-top: -20px;
+  }
+  .topbar .prev-next-buttons button {
+    color: #7a7a7a;
+    cursor: not-allowed;
+    width: 34px;
+    height: 34px;
+    border-radius: 100%;
+    font-size: 18px;
+    border: 0px;
+    background-color: #000000;
+    margin-right: 10px;
+  }
+
+
+
+
+  .spotify-playlists {
+    padding: 20px 40px;
+  }
+  .spotify-playlists h2 {
+    color: #ffffff;
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  .spotify-playlists .list {
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+  }
+  .spotify-playlists .list .item {
+    min-width: 140px;
+    width: 160px;
+    padding: 15px;
+    background-color: #181818;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all ease 0.4s;
+  }
+  .spotify-playlists .list .item:hover {
+    background-color: #252525;
+  }
+  .spotify-playlists .list .item img {
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 10px;
+  }
+  .spotify-playlists .list .item .play {
+    position: relative;
+  }
+  .spotify-playlists .list .item .play .fa {
+    position: absolute;
+    right: 10px;
+    top: -60px;
+    padding: 18px;
+    background-color: #1db954;
+    border-radius: 100%;
+    opacity: 0;
+    transition: all ease 0.4s;
+  }
+  .spotify-playlists .list .item:hover .play .fa {
+    opacity: 1;
+    transform: translateY(-20px);
+  }
+  .spotify-playlists .list .item h4 {
+    color: #ffffff;
+    font-size: 18px;
+    margin-bottom: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .spotify-playlists .list .item p {
+    color: #989898;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+  }
+  .spotify-playlists hr {
+    margin: 70px 0px 0px;
+    border-color: #636363;
+  }
+  .footer{
+    height: 125px;
+  }
+  hr{
+    color: #636363;
+  }
