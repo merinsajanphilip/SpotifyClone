@@ -1,7 +1,7 @@
 body{
     background-color: #121212;
     margin: 0%;
-    border: 0;
+ padding: 0;
 }
 .sidebar{
     position: fixed;
@@ -38,33 +38,43 @@ body{
     color: white;
 }
 .sidebar .policy {
-margin-top: 350px;
+    
+margin-top: 367px;
+
 }
 .sidebar .policy ul{
     list-style: none;
 }
 .sidebar .policy ul li{
-    padding-bottom: 5px;
+    padding-bottom: 2px;
 }
 .sidebar .policy ul li a{
-    font-size: 14px;
+    color: #ffffff;
+    font-size: 15px;
+    padding-left: 20px;
 }
-.slidebar .lang {
-    border-radius: 50px;
+.sidebar .lang {
+     padding-top: -7px;
+     border-radius: 50px; 
 }
 .main {
     margin-left: 245px;
     margin-bottom: 100px;
   }
   
-  .topbar {
+   .topbar {
     display: flex;
     justify-content: space-between;
-    background-color: #100f0f;
+    background-color: #101010;
+    padding: 25px 30px;
+
+  }  
+   /* .topbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #101010;
     padding: 14px 30px;
-    margin-left: -30px;
-    margin-top: -20px;
-  }
+  }  */
   .topbar .prev-next-buttons button {
     color: #7a7a7a;
     cursor: not-allowed;
@@ -75,6 +85,53 @@ margin-top: 350px;
     border: 0px;
     background-color: #000000;
     margin-right: 10px;
+  }
+   .navbar {
+    display: flex;
+    align-items: center;
+  }
+    .navbar ul {
+    list-style: none;
+  }
+   .navbar ul li {
+    display: inline-block;
+    margin: 0px 8px;
+    width: 70px;
+  }
+   .navbar ul li a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+  .topbar .navbar ul li a:hover,
+  .topbar .navbar ul li a:active,
+  .topbar .navbar ul li a:focus {
+    color: #ffffff;
+    font-size: 15px;
+  }
+  .topbar .navbar ul li.divider {
+    color: #ffffff;
+    font-size: 26px;
+    margin: 0px 20px;
+    width: auto;
+  }
+  .topbar .navbar button {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 14px 30px;
+    border: 0px;
+    border-radius: 40px;
+    cursor: pointer;
+    margin-left: 20px;
+  }
+  .topbar .navbar button:hover,
+  .topbar .navbar button:active,
+  .topbar .navbar button:focus {
+    background-color: #f2f2f2;
   }
 
 
